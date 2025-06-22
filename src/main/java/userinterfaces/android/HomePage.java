@@ -4,8 +4,8 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import org.openqa.selenium.WebElement;
 
 public class HomePage {
-    @AndroidFindBy(id = "com.saucelabs.mydemoapp.android:id/menuIV")
-    public WebElement menu;
+    @AndroidFindBy(accessibility = "View menu")
+    public WebElement menuTab;
 
     @AndroidFindBy(accessibility = "Login Menu Item")
     public WebElement loginOption;
